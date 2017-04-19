@@ -1,0 +1,28 @@
+html, body{
+  height:100%;
+}
+.parallax {
+    /* The image used */
+    background-image: url("head.jpg");
+
+    /* Set a specific height */
+    height: 40%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+  height:100px;
+  background-color: rgba(20,70,100,0.7);
+  width:100%;
+}
+
+.content{
+  height:300px;
+  background-color:rgba(200,200,200,0.7);
+  font-size:36px
+}
