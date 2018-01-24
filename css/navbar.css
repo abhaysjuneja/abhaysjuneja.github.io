@@ -1,0 +1,31 @@
+#wrap {
+background: transparent;
+}
+
+.navbar{
+list-style: none;
+position: fixed;
+margin-top:230px;
+margin-left:80px;
+}
+
+.navbar li{
+margin-bottom:18px;
+text-align:center;
+width:150px;
+}
+.navbar li a{
+padding-right:10px;
+padding-left:10px;
+padding-bottom:5px;
+padding-top:5px;
+text-decoration:none;
+font-size:23px;
+color:white;
+border-radius:5px;
+}
+
+.navbar  li a:hover{
+opacity:0.6;
+background: #000000;
+}
