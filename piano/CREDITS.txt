@@ -1,0 +1,8 @@
+Piano samples: Salamander Grand Piano V3 by Alexander Holm (Yamaha C5).
+Licence: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+https://creativecommons.org/licenses/by/3.0/
+Source: https://github.com/sfzinstruments/SalamanderGrandPiano
+MP3 conversions from https://tonejs.github.io/audio/salamander/
+
+Changes made: six notes only (C2, F#2, C3, F#3, C4, F#4, C5), mixed to mono,
+cut to 5 s (F#4 and C5: 8 s) with a fade out, re-encoded.

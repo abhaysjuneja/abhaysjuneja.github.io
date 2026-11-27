@@ -1,0 +1,1 @@
+for(let e of document.querySelectorAll(`a[data-back]`))e.addEventListener(`click`,t=>{let n=document.referrer?new URL(document.referrer):null,r=new URL(e.href);n?.origin!==location.origin||n.pathname.replace(/\/$/,``)!==r.pathname.replace(/\/$/,``)||history.length<2||t.metaKey||t.ctrlKey||t.shiftKey||(t.preventDefault(),history.back())});
